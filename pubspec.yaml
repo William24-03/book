@@ -1,5 +1,6 @@
-name: hmti_posts_app
-description: Aplikasi Flutter CRUD terhubung ke API Post.
+name: books
+version: 1.0.0+1
+description: Aplikasi Books.
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
@@ -7,7 +8,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.6
+  http: ^1.2.2
   image_picker: ^0.8.7+5
   path: ^1.8.2
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
